@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/race-sport-free');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-image: url(images/car_bg.png); /* Dark background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e5e5e7; /* Light gray text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-family: 'Race Sport Free', sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: #fff; /* White */
+    text-align: center;
+}
+
+.logo-container {
+    padding: 10px;  /* Added padding to align logo */
+}
+
+.logo-container img {
+    height: 100px;
+}
+
+.page-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.page-title h1 {
+    font-size: 2em;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 0.7rem;
+}
+
+nav ul li a {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    padding-top: 0%;
+    color: #fff; /* White */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+nav ul li a:hover {
+    color: #ff3b30; /* Red highlight on hover */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+footer {
+    font-family: "Karla", sans-serif;
+    font-size: 12px;
+    color: #fff; /* White */
+    text-align: center;
+    padding: 0.3rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #ff3b30; /* White */
+}
+
+h2 {
+    margin-left: 15px;
+    font-family: 'Karla', sans-serif;
+    font-size: 60px;
+    color: #ffffff; /* Red */
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background-color: #2c2c2e; /* Darker table background */
+    color: #e5e5e7; /* Light gray text */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444; /* Dark borders */
+    text-align: center;
+}
+
+th {
+    background-color: #444; /* Dark background for table headers */
+    color: #ff3b30; /* Red text for headers */
+}
+
+td {
+    background-color: #2c2c2e; /* Dark background for table cells */
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3c; /* Slightly lighter background for even rows */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 0 1 calc(50% - 1rem); /* Adjust the width of each column */
+}
+
+.card {
+    background: #2c2c2e; /* Darker background */
+    border: 1px solid #444; /* Dark borders */
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1 0 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for card scale */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge card on hover */
+}
+
+.card h3 {
+    color: #ff3b30; /* Red text color */
+}
+
+.card p {
+    color: #e5e5e7; /* Light gray text color */
+    line-height: 1.6;
+}
+
+.card a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    background-color: #ff3b30; /* Red button background color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.card a:hover {
+    background-color: #d63022; /* Darker red on hover */
+}
